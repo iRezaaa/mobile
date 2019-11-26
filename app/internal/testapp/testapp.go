@@ -11,13 +11,13 @@ import (
 	"log"
 	"net"
 
-	"golang.org/x/mobile/app"
-	"golang.org/x/mobile/app/internal/apptest"
-	"golang.org/x/mobile/event/lifecycle"
-	"golang.org/x/mobile/event/paint"
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/event/touch"
-	"golang.org/x/mobile/gl"
+	"github.com/iRezaaa/mobile/app"
+	"github.com/iRezaaa/mobile/app/internal/apptest"
+	"github.com/iRezaaa/mobile/event/lifecycle"
+	"github.com/iRezaaa/mobile/event/paint"
+	"github.com/iRezaaa/mobile/event/size"
+	"github.com/iRezaaa/mobile/event/touch"
+	"github.com/iRezaaa/mobile/gl"
 )
 
 func main() {

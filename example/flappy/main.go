@@ -12,17 +12,17 @@ import (
 	"math/rand"
 	"time"
 
-	"golang.org/x/mobile/app"
-	"golang.org/x/mobile/event/key"
-	"golang.org/x/mobile/event/lifecycle"
-	"golang.org/x/mobile/event/paint"
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/event/touch"
-	"golang.org/x/mobile/exp/gl/glutil"
-	"golang.org/x/mobile/exp/sprite"
-	"golang.org/x/mobile/exp/sprite/clock"
-	"golang.org/x/mobile/exp/sprite/glsprite"
-	"golang.org/x/mobile/gl"
+	"github.com/iRezaaa/mobile/app"
+	"github.com/iRezaaa/mobile/event/key"
+	"github.com/iRezaaa/mobile/event/lifecycle"
+	"github.com/iRezaaa/mobile/event/paint"
+	"github.com/iRezaaa/mobile/event/size"
+	"github.com/iRezaaa/mobile/event/touch"
+	"github.com/iRezaaa/mobile/exp/gl/glutil"
+	"github.com/iRezaaa/mobile/exp/sprite"
+	"github.com/iRezaaa/mobile/exp/sprite/clock"
+	"github.com/iRezaaa/mobile/exp/sprite/glsprite"
+	"github.com/iRezaaa/mobile/gl"
 )
 
 func main() {

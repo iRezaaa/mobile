@@ -151,8 +151,8 @@ func runBuildImpl(cmd *command) (*packages.Package, error) {
 		}
 	}
 
-	if !nmpkgs["golang.org/x/mobile/app"] {
-		return nil, fmt.Errorf(`%s does not import "golang.org/x/mobile/app"`, pkg.PkgPath)
+	if !nmpkgs["github.com/iRezaaa/mobile/app"] {
+		return nil, fmt.Errorf(`%s does not import "github.com/iRezaaa/mobile/app"`, pkg.PkgPath)
 	}
 
 	return pkg, nil
@@ -162,7 +162,7 @@ var nmRE = regexp.MustCompile(`[0-9a-f]{8} t (?:.*/vendor/)?(golang.org/x.*/[^.]
 
 func extractPkgs(nm string, path string) (map[string]bool, error) {
 	if buildN {
-		return map[string]bool{"golang.org/x/mobile/app": true}, nil
+		return map[string]bool{"github.com/iRezaaa/mobile/app": true}, nil
 	}
 	r, w := io.Pipe()
 	cmd := exec.Command(nm, path)

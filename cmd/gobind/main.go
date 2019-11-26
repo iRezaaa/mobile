@@ -18,9 +18,9 @@ import (
 	"runtime"
 	"strings"
 
-	"golang.org/x/mobile/internal/importers"
-	"golang.org/x/mobile/internal/importers/java"
-	"golang.org/x/mobile/internal/importers/objc"
+	"github.com/iRezaaa/mobile/internal/importers"
+	"github.com/iRezaaa/mobile/internal/importers/java"
+	"github.com/iRezaaa/mobile/internal/importers/objc"
 	"golang.org/x/tools/go/packages"
 )
 
